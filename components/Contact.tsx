@@ -1,4 +1,3 @@
-import StackIcon from "tech-stack-icons";
 import Container from "./Container";
 import { Mail, Phone } from "lucide-react";
 
