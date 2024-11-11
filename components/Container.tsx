@@ -7,14 +7,8 @@ function Container({
   ...props
 }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <section
-      className={twMerge(
-        "w-full py-16 mx-auto flex max-w-7xl flex-col gap-6 px-8",
-        className
-      )}
-      {...props}
-    >
-      {children}
+    <section className={twMerge("w-full py-16", className)} {...props}>
+      <div className="mx-auto  w-full max-w-7xl">{children}</div>
     </section>
   );
 }

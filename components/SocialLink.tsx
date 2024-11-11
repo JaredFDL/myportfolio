@@ -13,7 +13,7 @@ const socialLinks = [
   {
     label: "linkedin",
     icon: Linkedin,
-    url: "www.linkedin.com/in/jared-feng",
+    url: "https://linkedin.com/in/jared-feng",
   },
 ];
 
@@ -21,7 +21,11 @@ export const SocialLink = () => {
   return (
     <div className="flex gap-2">
       {socialLinks.map((sl) => (
-        <Button key={sl.label} className="w-[40px] h-[40px]">
+        <Button
+          key={sl.label}
+          className="w-[40px] h-[40px]"
+          onClick={() => window.open(sl.url, "_blank")}
+        >
           <sl.icon />
         </Button>
       ))}
