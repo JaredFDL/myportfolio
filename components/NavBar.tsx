@@ -17,7 +17,7 @@ const links = [
 
 function NavBar() {
   return (
-    <header className="sticky top-0 mx-auto flex justify-between py-2 px-8 items-center w-full max-w-7xl">
+    <header className="bg-muted sticky top-0 mx-auto flex justify-between py-2 px-8 items-center w-full max-w-7xl">
       <Link href="/">
         <h1 className="text-2xl font-extrabold">{`<JF />`}</h1>
       </Link>
