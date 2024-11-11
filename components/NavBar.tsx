@@ -10,9 +10,10 @@ import { Button } from "./ui/button";
 import { AlignLeft } from "lucide-react";
 
 const links = [
-  { label: "About", href: "#asdf" },
-  { label: "Work", href: "#asdff" },
-  { label: "Contact", href: "#afsdf" },
+  { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#project" },
+  { label: "Contact", href: "#contact" },
 ];
 function NavBar() {
   return (
@@ -28,7 +29,7 @@ function NavBar() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="font-medium hover:text-gray-500"
+                    className="font-medium hover:text-gray-500 active:text-zinc-600"
                   >
                     {link.label}
                   </Link>

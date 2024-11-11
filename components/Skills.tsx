@@ -17,7 +17,7 @@ const techStacks = [
 ];
 function Skills() {
   return (
-    <Container className="bg-muted">
+    <Container id="skills" className="bg-muted">
       <div className="flex flex-col items-center gap-5">
         <div className="flex flex-col items-center gap-3">
           <h2 className="text-2xl font-semibold">Skills</h2>
