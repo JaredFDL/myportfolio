@@ -8,7 +8,7 @@ function Contact() {
         <div className="flex flex-col items-center gap-3">
           <h2 className="text-2xl font-semibold">Contact me</h2>
           <p className="max-w-[580px] text-center">
-            What's next? Feel free to reach out me if you are looking for a
+            What is next? Feel free to reach out me if you are looking for a
             developer, or simple want to connect. I am more than happy to get in
             touch with you!
           </p>
