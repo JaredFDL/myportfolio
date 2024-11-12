@@ -40,7 +40,7 @@ function Experience() {
           <p>Here is a quick summary of my most recent experiences:</p>
         </div>
       </div>
-      <div className="px-10 flex flex-col justify-center items-center gap-10 max-w-4xl">
+      <div className="flex flex-col justify-center items-center gap-10 max-w-4xl">
         {experience.map((e, index) => (
           <ExperienceCard
             key={index}
