@@ -18,7 +18,7 @@ function ExperienceCard({
   content: string[];
 }) {
   return (
-    <Card className="flex flex-col">
+    <Card className="flex flex-col bg-muted">
       <CardHeader className="flex flex-col gap-1 pb-0">
         <CardTitle>{title}</CardTitle>
         <CardDescription>{duration}</CardDescription>
@@ -26,8 +26,8 @@ function ExperienceCard({
       </CardHeader>
       <CardContent className="flex flex-col gap-2 pt-5">
         <ul className="list-disc">
-          {content.map((c) => (
-            <li className="mt-2" key={duration}>
+          {content.map((c, index) => (
+            <li className="mt-2" key={index}>
               {c}
             </li>
           ))}

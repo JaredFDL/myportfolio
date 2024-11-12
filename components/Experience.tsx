@@ -41,9 +41,9 @@ function Experience() {
         </div>
       </div>
       <div className="px-10 flex flex-col justify-center items-center gap-10 max-w-4xl">
-        {experience.map((e) => (
+        {experience.map((e, index) => (
           <ExperienceCard
-            key={e.duration}
+            key={index}
             title={e.title}
             companyName={e.companyName}
             duration={e.duration}

@@ -3,7 +3,7 @@ import { Mail, Phone } from "lucide-react";
 
 function Contact() {
   return (
-    <Container id="contact" className="bg-muted">
+    <Container id="contact">
       <div className="flex flex-col items-center gap-5 mx-3">
         <div className="flex flex-col items-center gap-3">
           <h2 className="text-2xl font-semibold">Contact me</h2>
