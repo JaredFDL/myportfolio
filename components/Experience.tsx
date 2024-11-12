@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import React, { version } from "react";
+import React from "react";
 import ExperienceCard from "./ExperienceCard";
 
 const experience = [
