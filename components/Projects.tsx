@@ -8,15 +8,16 @@ const projects = [
   {
     name: "jobify",
     description:
-      "The job tracking app helps users streamline and manage their job application process. It offers an organized way to track job details, application status, and important milestones.",
-    techStack: ["nextjs", "react", "react-query"],
+      "The job tracking app helps users streamline and manage their job application process. It offers an organized way to track job details, application status, and important milestones. Users can set reminders for follow-ups, store documents, and keep notes for each position. With visual analytics, they can monitor progress and gain insights into their job search activities. This app simplifies job hunting, keeping everything in one place and enhancing productivity during the search.",
+    techStack: ["Nextjs", "React", "React Query", "TypeScript"],
     link: "https://jobify-jaredfdls-projects.vercel.app/",
     image: jobify,
   },
   {
     name: "reactivities",
-    description: "",
-    techStack: ["react", "TypeScript", "Redux", ".Net Core"],
+    description:
+      "This application is a social platform where users can share their activities with others, fostering engagement and interaction. Users can post about their activities and leave comments on each other's posts, creating a community-driven experience that encourages sharing and discussion. The app is designed to enhance connectivity and provide a space for users to express themselves, engage with friends, and explore activities shared by others",
+    techStack: ["react", "TypeScript", "Redux", ".Net Core", "MySQL"],
     link: "",
     image: reactivities,
   },

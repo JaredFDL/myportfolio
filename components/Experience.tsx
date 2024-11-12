@@ -33,7 +33,7 @@ const experience = [
 
 function Experience() {
   return (
-    <Container id="experience">
+    <Container id="experience" className="bg-muted">
       <div className="flex flex-col items-center gap-5 mb-8">
         <div className="flex flex-col items-center gap-3">
           <h2 className="text-2xl font-semibold">Experience</h2>

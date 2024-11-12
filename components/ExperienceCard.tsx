@@ -18,7 +18,7 @@ function ExperienceCard({
   content: string[];
 }) {
   return (
-    <Card className="flex flex-col bg-muted">
+    <Card className="flex flex-col rounded-2xl">
       <CardHeader className="flex flex-col gap-1 pb-0">
         <CardTitle>{title}</CardTitle>
         <CardDescription>{duration}</CardDescription>

@@ -11,8 +11,8 @@ import { AlignLeft } from "lucide-react";
 
 const links = [
   { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#project" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 function NavBar() {

@@ -26,16 +26,16 @@ function Project({
   link: string;
 }) {
   return (
-    <div className="flex flex-col border-[1px] rounded-xl md:flex-row max-w-6xl">
-      <Card className="rounded-b-none border-0 md:rounded md:rounded-r-none flex-1">
-        <CardContent className="p-8">
-          <Image src={image} alt={name} className="rounded-lg" />
+    <div className="flex flex-col md:flex-row max-w-6xl">
+      <Card className="bg-muted rounded-2xl shadow-md p-0 rounded-b-none border-0 border-b-[1px] md:rounded-2xl md:border-0 md:border-r-[1px] md:rounded-r-none flex-1">
+        <CardContent className="w-full h-full flex items-center justify-center p-10">
+          <Image src={image} alt={name} className="rounded-2xl" />
         </CardContent>
       </Card>
 
-      <Card className="rounded-t-none border-0 md:rounded md:rounded-l-none flex-1">
+      <Card className="dark:bg-zinc-700 pt-5 rounded-2xl shadow-md rounded-t-none border-0 md:rounded-2xl md:rounded-l-none flex-1">
         <CardHeader className="gap-5">
-          <CardTitle>{name}</CardTitle>
+          <CardTitle className="capitalize">{name}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-wrap gap-2">
